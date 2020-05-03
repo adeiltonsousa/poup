@@ -1,4 +1,6 @@
 import React from 'react';
+import Wobble from 'react-reveal/Wobble';
+
 
 import "../Splash.css";
 import logo from "../../../images/logo.svg";
@@ -18,12 +20,13 @@ export default function Home(props) {
 
   return (
     <>
-        <div className="home">
+      <div className="home">
           <span className="container">
+          <Wobble>
             <img src={ logo } alt="Logomarca Poup+"/>
-          </span>
-           
-        </div> 
+          </Wobble>
+          </span>           
+      </div> 
     </>
   );
 }

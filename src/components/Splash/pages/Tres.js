@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "../Splash.css";
-import img_topo from "../../../images/1.jpg";
+import img_topo from "../../../images/3.jpg";
 
 export default function Tres(props) {
   return (

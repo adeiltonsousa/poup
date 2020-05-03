@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "../Splash.css";
-import img_topo from "../../../images/1.jpg";
+import img_topo from "../../../images/2.jpg";
 
 export default function Dois(props) {
   return (
