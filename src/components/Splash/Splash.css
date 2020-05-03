@@ -1,0 +1,92 @@
+@keyframes slidein {
+    from {
+      opacity: 40%;
+      width: 90%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      opacity: 100%;
+    }
+  }
+
+
+.home {
+    background: #2879d9;
+}
+
+.splash_um {  
+    background: #e85041;
+}
+
+.splash_dois {  
+    background: #5d00bb;
+}
+
+.splash_tres {  
+    background: #01b59b;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+
+.splash-ilustracao {
+    width: 70%;
+    border: solid #FFF 2px;
+    border-radius: 15px;
+}
+
+.splash-texto {
+    display: flex;
+    color: #FFF;
+    font-size: 16pt;
+    width: 80%;
+    text-align: center;
+}
+
+.splash_marcador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.splash_marcador_botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcador_item {
+    width: 50px;
+    border: 3px solid rgba(0,0,0,0.3);
+    border-radius: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.marcador_item--ativo {
+    border: 3px solid rgba(0,0,0,1);
+}
+
+.splash_botao {
+    display: block;
+    color: #FFF;
+    align-items: center;
+    width: 200px;
+    padding: 15px 50px;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15px;
+}
