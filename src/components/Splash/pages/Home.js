@@ -15,7 +15,7 @@ export default function Home(props) {
         props.mudaSplash("um");
     }
     .bind(this),
-    2000  
+    3000  
   );
 
   return (
