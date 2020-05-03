@@ -10,23 +10,23 @@ export default function Dois(props) {
       <article className="splash_dois">
         <div className="container">
           <Slide right>
-            <img className="splash-ilustracao" src={img_topo} />
+            <img className="splash-ilustracao" src={img_topo} alt="Imagem ilustrativa"/>
             <div className="splash-texto">
               É mais fácil conquistar seus sonhos quando você aprende a poupar
             </div>
           </Slide>
           <div className="splash_marcador_botao">
             <span className="splash_marcador">
-              <a className="marcador_item"></a>
-              <a className="marcador_item marcador_item--ativo"></a>
-              <a className="marcador_item"></a>
+              <div className="marcador_item"></div>
+              <div className="marcador_item marcador_item--ativo"></div>
+              <div className="marcador_item"></div>
             </span>
 
             <span
               className="splash_botao"
               onClick={() => props.mudaSplash("tres")}
             >
-              <a>Próximo</a>
+              Próximo
             </span>
           </div>
         </div>

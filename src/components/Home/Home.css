@@ -1,0 +1,52 @@
+.login_user {
+    background: rgb(210, 220, 221);
+}
+
+.container_home {
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.home_cards_item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 150px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.home_cards_item p {
+    font-size: 22pt;
+    color: #FFF;
+}
+
+.home_cards_item span {
+    font-size: 12pt;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.topo_home {
+    padding: 10px; 
+    font-size: medium;
+    color: darkcyan;   
+}
+
+.cursos {
+    background: #e85041;
+}
+
+.gastos {
+    background: #45008c;
+}
+
+.trilha {
+    background: #01b59b;
+}
+
+.poupaqui {
+    background: #ffb45b;
+}

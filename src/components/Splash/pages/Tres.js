@@ -1,5 +1,6 @@
 import React from "react";
 import Slide from "react-reveal/Slide";
+import { Link } from 'react-router-dom';
 
 import "../Splash.css";
 import img_topo from "../../../images/3.jpg";
@@ -10,7 +11,7 @@ export default function Tres(props) {
       <article className="splash_tres">
         <div className="container">
           <Slide right>
-            <img className="splash-ilustracao" src={img_topo} />
+            <img className="splash-ilustracao" src={img_topo} alt="Imagem ilustrativa"/>
             <div className="splash-texto">
               O mẽs passa rápido, mas tente ter o controle dos seus gastos e
               esteja no topo do ranking
@@ -18,17 +19,18 @@ export default function Tres(props) {
           </Slide>
           <div className="splash_marcador_botao">
             <span className="splash_marcador">
-              <a className="marcador_item"></a>
-              <a className="marcador_item"></a>
-              <a className="marcador_item marcador_item--ativo"></a>
+              <div className="marcador_item"></div>
+              <div className="marcador_item"></div>
+              <div className="marcador_item marcador_item--ativo"></div>
             </span>
 
-            <span
+            <Link
               className="splash_botao"
-              onClick={() => props.mudaSplash("home")}
+              to="/login"
+              // onClick={() => props.mudaSplash("home")}
             >
-              <a>Próximo</a>
-            </span>
+              Próximo
+            </Link>
           </div>
         </div>
       </article>

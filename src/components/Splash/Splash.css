@@ -21,8 +21,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    animation-duration: 2s;
-    animation-name: slidein;
 }
 
 

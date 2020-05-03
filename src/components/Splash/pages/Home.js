@@ -13,9 +13,7 @@ export default function Home(props) {
   setTimeout(
     function() {
         props.mudaSplash("um");
-    }
-    .bind(this),
-    3000  
+    }, 3000  
   );
 
   return (
