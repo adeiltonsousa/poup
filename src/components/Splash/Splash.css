@@ -1,15 +1,74 @@
-@keyframes slidein {
+.slidein {
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+    animation-name: slidein;
+    -moz-animation-iteration-count: 3;
+    -webkit-animation-iteration-count: 3;
+    animation-iteration-count: 3;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+  @-moz-keyframes slidein {
     from {
       opacity: 40%;
-      width: 90%;
+      width: 95%;
     }
   
     to {
-      margin-left: 0%;
+      margin-right: 0%;
       width: 100%;
       opacity: 100%;
     }
   }
+
+  @-webkit-keyframes slidein {
+    from {
+      opacity: 40%;
+      width: 95%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+      opacity: 100%;
+    }
+  }
+
+
+
+  @keyframes slidein {
+    from {
+      opacity: 40%;
+      width: 95%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+      opacity: 100%;
+    }
+  }
+
+
+
+  @keyframes slidein {
+    from {
+      opacity: 40%;
+      width: 95%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+      opacity: 100%;
+    }
+  }
+
 
 
 .home {
