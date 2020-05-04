@@ -5,9 +5,11 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  text-decoration:none;
 }
 
 body {
     font: 400 14px Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
+    background: #f1f1f1;
 }

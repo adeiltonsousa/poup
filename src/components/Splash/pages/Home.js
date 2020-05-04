@@ -1,12 +1,8 @@
 import React from 'react';
 import Wobble from 'react-reveal/Wobble';
 
-
 import "../Splash.css";
 import logo from "../../../images/logo.svg";
-
-
-// onClick={() => props.mudaSplash("quatro")}
 
 export default function Home(props) {
 

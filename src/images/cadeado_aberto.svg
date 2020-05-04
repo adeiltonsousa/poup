@@ -1,0 +1,17 @@
+<svg id="Cadeado" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8d56d;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_55" data-name="Grupo 55">
+    <path id="Caminho_62" data-name="Caminho 62" class="cls-1" d="M19.5,10H18V8A6,6,0,0,0,6,8H8a4,4,0,0,1,8,0v2H4.5a.5.5,0,0,0-.5.5v9.75A1.758,1.758,0,0,0,5.75,22h12.5A1.758,1.758,0,0,0,20,20.25V10.5A.5.5,0,0,0,19.5,10Zm-6.51,7.35a.527.527,0,0,1-.44.65h-1.1a.527.527,0,0,1-.44-.65l.35-2.59A.974.974,0,0,1,11,14a1,1,0,0,1,2,0,.974.974,0,0,1-.36.76Z"/>
+    <rect id="Retângulo_92" data-name="Retângulo 92" class="cls-2" width="24" height="24"/>
+  </g>
+</svg>
