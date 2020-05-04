@@ -89,7 +89,7 @@ const listCards = [
             {
                 listCards.map(curso => (   
                     <Slide right>
-                    <Link to="/curso-planejamento">
+                    <Link to="/exibi-curso">
                         <div className="lista_cursos_item">
                             <div className="lista_cursos_status">
                                 <img 

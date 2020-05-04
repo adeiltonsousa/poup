@@ -1,0 +1,19 @@
+<svg id="Fechar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #01b59b;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_64" data-name="Grupo 64">
+    <rect id="Retângulo_98" data-name="Retângulo 98" class="cls-1" width="24" height="24"/>
+    <g id="Grupo_63" data-name="Grupo 63">
+      <path id="Caminho_67" data-name="Caminho 67" class="cls-2" d="M13.69,2.14a10,10,0,1,0,8.17,8.16A10,10,0,0,0,13.69,2.14Zm3.93,12.64-5,4c-.04.03-.09.05-.13.08a.536.536,0,0,1-.11.05A.849.849,0,0,1,12,19a1.1,1.1,0,0,1-.39-.09.06.06,0,0,1-.04-.01.567.567,0,0,1-.13-.08c-.02-.02-.05-.02-.06-.04l-5-4a1,1,0,1,1,1.24-1.56l2.57,2.05a.5.5,0,0,0,.81-.39V6a1,1,0,0,1,2,0v8.88a.5.5,0,0,0,.81.39l2.57-2.05a1,1,0,0,1,1.24,1.56Z"/>
+    </g>
+  </g>
+</svg>

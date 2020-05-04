@@ -1,0 +1,120 @@
+.container_exibe_curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.exibe_curso_video {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.barra_video {
+    display: flex;    
+}
+
+.barra_esquerda {
+    width: 100%;
+    height: 8px;
+    background: #20b2aa;
+}
+
+.barra_direita {
+    width: 100%;
+    height: 8px;
+    background: #e2e2e2;
+}
+
+.exibe_curso_informacoes {
+    padding: 10px 30px;
+    background: #e2e2e2;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.exibe_curso_menu {
+    display: flex;
+    background: #e2e2e2;
+}
+
+.exibe_curso_menu span {
+    width: 90px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: #d4d4d4 solid 5px;
+}
+
+.active {
+    border-bottom: #f39e1c solid 5px !important;
+}
+
+.exibe_curso_menu span:nth-child(3n) {
+    border-bottom: #d4d4d4 solid 5px;
+    width: 70%;
+}
+
+.exibe_lista_curso_item {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    background: #e2e2e2;
+    margin-top: 15px;
+}
+
+.exibe_lista_curso_item--inactive {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+    background: #FFF;
+    margin-top: 15px;
+}
+
+.item_lista_seq {
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.item_lista_marcador {
+    padding: 10px;
+}
+
+.titulo_lista{
+    font-size: 18pt;
+}
+
+.duracao {
+    color: #6f6f6f;
+    margin: 50px 0;
+}
+
+.bloco_fixo {
+    position: sticky;
+    top:0;
+}
+
