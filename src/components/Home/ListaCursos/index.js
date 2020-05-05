@@ -11,7 +11,6 @@ import './ListaCursos.css';
 
 export default function ListaCursos() {
 
-// const usuario_logado = localStorage.getItem('Nome');
   
 const listCards = [
   {  

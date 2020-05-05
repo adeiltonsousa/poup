@@ -1,0 +1,17 @@
+<svg id="Camada_7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_39" data-name="Grupo 39">
+    <path id="Caminho_55" data-name="Caminho 55" class="cls-1" d="M20.649,17.852a9.138,9.138,0,0,1-.224,2.042.955.955,0,0,1-.923.755.928.928,0,0,1-.914-1.119,7.128,7.128,0,0,0,.2-1.678A7.458,7.458,0,1,0,4.051,19.475a.946.946,0,0,1-.9,1.175h0a.955.955,0,0,1-.923-.755A9.622,9.622,0,0,1,2,17.805a9.325,9.325,0,0,1,18.649.047ZM11.325,7.595a2.8,2.8,0,1,0-2.8-2.8A2.794,2.794,0,0,0,11.325,7.595Z" transform="translate(0.865 0.486)"/>
+    <rect id="Retângulo_70" data-name="Retângulo 70" class="cls-2" width="24" height="24"/>
+  </g>
+</svg>

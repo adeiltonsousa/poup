@@ -17,8 +17,62 @@
   height: 56px;
 }
 
+.content-container-menu {
+  display: flex;
+}
 
+.content-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 
+.content-usuario-menu {
+  color: #FFF;
+  padding-left: 10px;
+}
+
+.content-usuario-menu span {
+  font-size: 17pt;;
+}
+
+.content-usuario-menu p {
+  font-size: 10pt;
+  padding-top: 8px;
+}
+
+.content-lista-menu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: flex-start;
+
+}
+
+.lista-menu-item {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  color: #FFF;
+  border-bottom: 1px solid #0861cd;
+  width: 100%;
+}
+
+.lista-menu-item span {
+  margin-left: 25px;
+}
+
+.config {
+  margin-top: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  padding-top: 50%;
+  color: #FFF;
+  font-size: 9pt;
+}
 
 /* MY CODE */
 
@@ -63,8 +117,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
-  padding: 2.5em 1.5em 0;
+  background: #054086;
+  padding: 2.5em 1em 0;
   font-size: 1.15em;
 }
 
