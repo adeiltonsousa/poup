@@ -62,7 +62,6 @@ export default function ExibeCurso() {
   return (
     <>
       <div className="container_exibe_curso">
-        <span className="bloco_fixo">
           <div className="exibe_curso_video">
             <video width="100%" height="100%" controls>
               <source src={aula1} type="video/mp4" />
@@ -88,7 +87,6 @@ export default function ExibeCurso() {
             <span>Mais</span>
             <span></span>
           </span>
-        </span>
 
         <Slide right>
           <div className="exibe_curso_lista">

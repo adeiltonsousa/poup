@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
     width: 100%;
 }
 
@@ -112,9 +111,3 @@
     color: #6f6f6f;
     margin: 50px 0;
 }
-
-.bloco_fixo {
-    position: sticky;
-    top:0;
-}
-

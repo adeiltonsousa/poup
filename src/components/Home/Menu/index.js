@@ -47,7 +47,7 @@ class MenuBurger extends React.Component {
                 <span>Minhas metas</span>
               </span>
 
-              <span className="lista-menu-item config">
+              <span className="lista-menu-item config-menu">
                 <img src={marcador} alt="Icone do menu" />
                 <span>Configurações</span>
               </span>

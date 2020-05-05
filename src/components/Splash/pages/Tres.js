@@ -13,7 +13,7 @@ export default function Tres(props) {
           <Slide right>
             <img className="splash-ilustracao" src={img_topo} alt="Imagem ilustrativa"/>
             <div className="splash-texto">
-              O mẽs passa rápido, mas tente ter o controle dos seus gastos e
+              O mês passa rápido, mas tente ter o controle dos seus gastos e
               esteja no topo do ranking
             </div>
           </Slide>
